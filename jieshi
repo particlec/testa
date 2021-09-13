@@ -1,0 +1,12 @@
+ts中使用react路由：
+npm install  react-router-dom
+npm i  @types/react-router-dom
+
+antd:
+npm install antd
+
+ts中使用 styled
+npm install  @types/styled-components
+
+
+prettier 代码格式整理
