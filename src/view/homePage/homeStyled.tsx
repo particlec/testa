@@ -7,8 +7,9 @@ const HomeStyled = styled.div`
   height: 900px;
   display: flex;
   justify-content: center;
+
   .content-main {
-    background-color: lightblue;
+    background-color: #ffffff;
     height: 100%;
     width: 1150px;
   }

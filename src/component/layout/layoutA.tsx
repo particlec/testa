@@ -1,7 +1,7 @@
 import { Route } from "react-router-dom";
 import { Layout } from "antd";
 import Head from "../head/head";
-import HomePage from "../../router/homePage/homePage";
+import HomePage from "../../view/homePage/homePage";
 
 const { Header, Content, Footer } = Layout;
 function LayoutA({ path, title }: { path: string; title: string }) {

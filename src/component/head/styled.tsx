@@ -13,10 +13,13 @@ const HeadStyleDiv = styled.div`
   .head-content {
     width: 1150px;
     .head-content-title {
+      color: #444444;
       font-size: 37px;
       font-weight: bold;
     }
     .head-content-notes {
+      font-size: 15px;
+      color: #999;
     }
   }
 `;

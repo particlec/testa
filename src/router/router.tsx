@@ -5,7 +5,7 @@ const Router = () => {
   return (
     <HashRouter basename={"/blog"}>
       <Switch>
-        <LayoutA path="/clz.com" title={"首页"} />
+        <LayoutA path="/clz.com" title={"首页"}  />
       </Switch>
       <Redirect to="/clz.com" />
     </HashRouter>
