@@ -10,13 +10,12 @@ const HomePage = () => {
               <TabPane tab="首页" key="1">
                   <PageContent/>
               </TabPane>
-              <TabPane tab="存档" key="2">
+              <TabPane tab="留言" key="2">
                   Content of Tab Pane 2
               </TabPane>
               <TabPane tab="关于" key="3">
                   Content of Tab Pane 3
               </TabPane>
-
           </Tabs>
       </div>
     </HomeStyled>

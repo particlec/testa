@@ -4,28 +4,42 @@ const DivStyledPageContent = styled.div`
   width: 100%;
   height: 100%;
   //display: flex;
-  div.content-left{
+  div.content-left {
     width: 70%;
     float: left;
   }
-  
-  div.content-right{
+
+  div.content-right {
     height: 700px;
     border-left: 1px solid #e5e5e5;
     float: right;
     width: 281px;
-    position:relative;
+    position: relative;
     //height: auto;
-    
-    div.content-right-navigation{
-      left:20px;
-      width:100%;
-      height:100%;
-      position:absolute;
-      top:40px
+
+    div.content-right-navigation {
+      left: 25px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 40px;
+      h3 {
+        
+        line-height: 2.7;
+        margin-top: 25px;
+        color: #617173;
+        border-bottom: 1px solid #e5e5e5
+      }
+      div.content-right-newTitle {
+        color: #6E7173;
+        //color: #444444;
+        margin: 5px 0;
+        font-family: "Iowan Old Style", "Ovo", "Hoefler Text", Georgia, "Times New Roman", "TIBch", "Source Han Sans",
+        "PingFangSC-Regular", "Hiragino Sans GB", "STHeiti", "Microsoft Yahei", "Droid Sans Fallback", "WenQuanYi Micro Hei", sans-serif;
+      }
     }
   }
-  
+
 `;
 
 export default DivStyledPageContent;
